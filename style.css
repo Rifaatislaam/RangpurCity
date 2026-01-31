@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: ;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+:root {
+  /* COLORS */
+  --primary-color: #ffa955;
+  --background-primary-color: #fff7f0;
+  --border-primary-color: #ffcfa2;
+  --light-primary-color: #ffbf80;
+  --secondary-color: #683300;
+  --gray-color: #7f7d7b;
+
+  /* RADIUS */
+  --small-radius: 8px;
+  --medium-radius: 16px;
+  --large-radius: 24px;
+}
