@@ -1,0 +1,38 @@
+*::selection {
+  color: #000;
+  background-color: #fff;
+}
+
+:root {
+  --bg-color: #081b29;
+  --main-color: #48e655;
+  --text-color: #ededed;
+  --secund-bg-color: #112e42;
+}
+
+.text-animate {
+  font-size: 3.2rem;
+  color: transparent;
+  font-weight: 700;
+  -webkit-text-stroke: 0.5px var(--main-color);
+}
+
+.hisHeading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid var(--main-color);
+}
+
+.pera {
+  margin-top: 1.5rem;
+  font-size: 1.6rem;
+}
+
+.HeadContext {
+  color: var(--main-color);
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  margin-top: 1.5rem;
+}
+
