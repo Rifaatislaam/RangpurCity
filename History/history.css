@@ -27,6 +27,7 @@
 .pera {
   margin-top: 1.5rem;
   font-size: 1.6rem;
+  text-align: justify;
 }
 
 .HeadContext {
@@ -36,3 +37,35 @@
   margin-top: 1.5rem;
 }
 
+.context1 {
+  display: flex;
+}
+.context1 > .image-section {
+  height: 300px;
+  width: 500px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2rem;
+}
+.context1 > .image-section > img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border: 1px solid var(--main-color);
+  margin-top: 50px;
+}
+.context1 > .image-section > p {
+  font-size: 1rem;
+  text-align: center;
+}
+.context1 > .image-section > a {
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+.context1 > .image-section > a:hover {
+  color: var(--text-color);
+}
