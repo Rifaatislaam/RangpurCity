@@ -69,3 +69,33 @@
 .context1 > .image-section > a:hover {
   color: var(--text-color);
 }
+
+
+
+
+
+
+
+.highlight-withIcon {
+  color: var(--text-color);
+  font-weight: 500;
+  margin-left: 20rem;
+  margin-top: -2.5rem;
+}
+
+.highlight-withIcon > i {
+  padding: 1rem;
+  color: var(--main-color);
+
+}
+.highlight-withIcon > a {
+  color: var(--main-color);
+  font-size: 2rem;
+  margin: 1rem;
+
+}
+.highlight-withIcon > a:hover {
+  color: var(--text-color);
+  transition: 0.5s all;
+
+}
