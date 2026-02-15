@@ -99,3 +99,8 @@
   transition: 0.5s all;
 
 }
+.Hilight-text {
+  color: var(--main-color);
+  font-weight: 600;
+}
+/* style="color: yellowgreen; font-weight: 600;" Hilight-text */
