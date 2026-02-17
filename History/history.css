@@ -102,8 +102,20 @@
 .footer {
   background-color: var(--secund-bg-color);
   width: 100%;
+  height: 100vh;
   position: absolute;
   border-top-left-radius: 125px;
+
+}
+
+.logo-name-footer {
+  cursor: pointer;
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: var(--text-color);
+}
+.logo-name-footer:hover {
+  color: var(--main-color);
 }
 .row {
   width: 85%;
@@ -116,4 +128,64 @@
 .row > .col {
   flex-basis: 25%;
   padding: 10px;
+}
+.col h3 {
+  width: fit-content;
+  margin-bottom: 20px;
+  position: relative;
+}
+.footer-head {
+  font-weight: 800;
+  color: var(--main-color);
+  text-decoration: overline;
+}
+ul li {
+  list-style: none;
+  padding: 2px;
+}
+ul li a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 13px;
+}
+ul li a:hover {
+  color: var(--main-color);
+  font-weight: 800;
+}
+form {
+  padding-bottom: 15px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--main-color);
+  margin-bottom: 50px;
+}
+form .fa-regular {
+  font-size: 18px;
+  margin-right: 10px;
+}
+form input {
+  width: 100%;
+  background: transparent;
+  color: var(--main-color);
+  border: 0;
+  outline: 0;
+}
+
+
+
+.footer-bottom {
+  text-align: center;
+  justify-content: center;
+  font-size: 13px;
+  border-top: 1px solid var(--main-color);
+  padding-top: 15px;
+}
+.footer-bottom > p > a {
+  color: var(--main-color);
+  font-weight: 400;
+}
+.footer-bottom > p > a:hover {
+  color: var(--text-color);
+
+
 }
