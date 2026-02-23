@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500&display=swap");
 /*+++++++++++++++++++++++++++
- UNIVERSAL SECTION DESIGN 
+ UNIVERSAL DESIGN 
  ++++++++++++++++++++++++++++*/
 * {
   margin: 0;
@@ -35,6 +35,11 @@ html {
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
+}
+
+section {
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
 }
 
 /*++++++++++++++++++++++++++
@@ -124,132 +129,6 @@ HOME IMAGE SECTION DESIGN
 .home-image img {
   width: 400px;
   height: 400px;
-}
-
-/*++++++++++++++++++++++++++
-Contact section design
-+++++++++++++++++++++++++++*/
-.contact {
-  min-height: auto;
-  padding-bottom: 7rem;
-  background: var(--bg-color);
-}
-
-.contact > .heading {
-  margin-top: -3rem;
-  margin-bottom: 0rem;
-  font-size: 3.2rem;
-  font-weight: 600;
-  text-align: center;
-  color: transparent;
-  letter-spacing: 1px;
-  -webkit-text-stroke: 1px var(--text-color);
-}
-
-.contact > .heading > span {
-  -webkit-text-stroke: 1px var(--main-color);
-}
-
-.contact > .find {
-  text-align: center;
-  font-size: 2rem;
-  color: var(--main-color);
-}
-
-.contact > .box {
-  margin-top: 5rem;
-  display: grid;
-  grid-template-columns: 292px 292px 292px;
-  grid-template-rows: 90px 90px 90px;
-  gap: 2rem;
-}
-
-.contact > .box > .mini-box {
-  background-color: var(--secund-bg-color);
-  border-radius: 5px;
-  border-right: 2px solid var(--main-color);
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  transition: all 0.5s ease-in-out;
-}
-
-.contact > .box > .mini-box:hover {
-  transform: scale(1.06);
-  z-index: 1;
-  transition: 0.3s;
-}
-.contact > .box > .mini-box > .icon {
-  font-size: 50px;
-  margin-left: 20px;
-}
-
-.contact > .box > .mini-box > .content {
-  margin-left: 15px;
-}
-.contact > .box > .mini-box > .content > a {
-  text-decoration: none;
-  color: #fff;
-}
-.contact > .box > .mini-box > .content > a > h2 {
-  font-size: 18px;
-  font-weight: 400;
-}
-.contact > .box > .mini-box > .content > p {
-  font-size: 12px;
-  font-weight: 300;
-}
-.contact > .box > .mail {
-  border-color: #8c2242;
-}
-
-.contact > .box > .mini-box > .mail-icon {
-  color: #fff;
-}
-
-.contact > .box > .github {
-  border-color: #747474;
-}
-
-.contact > .box > .mini-box > .github-icon {
-  color: #747474;
-}
-
-.contact > .box > .discord {
-  border-color: #6e83cb;
-}
-
-.contact > .box > .mini-box > .discord-icon {
-  color: #6e83cb;
-}
-
-.contact > .box > .twitter {
-  border-color: #0071db;
-}
-
-.contact > .box > .mini-box > .twitter-icon {
-  color: #0071db;
-}
-
-.contact > .box > .linkedin {
-  border-color: #2867b2;
-}
-
-.contact > .box > .mini-box > .linkedin-icon {
-  color: #2867b2;
-}
-.contact > .box > .facebook {
-  border-color: #4b7de0;
-}
-
-.contact > .box > .mini-box > .facebook-icon {
-  color: #4b7de0;
-}
-
-/* HOME SECTION DESIGN */
-section {
-  min-height: 100vh;
-  padding: 10rem 9% 2rem;
 }
 
 .home {
@@ -390,4 +269,78 @@ section {
   left: 0;
   z-index: -1;
   transition: 0.5s;
+}
+
+/*++++++++++++++++++++++++++
+Content section design
++++++++++++++++++++++++++++*/
+.content-section {
+  min-height: auto;
+  padding-bottom: 7rem;
+  background: var(--bg-color);
+}
+
+.content-section > .heading {
+  margin-top: -3rem;
+  margin-bottom: 0rem;
+  font-size: 3.2rem;
+  font-weight: 600;
+  text-align: center;
+  color: transparent;
+  letter-spacing: 1px;
+  -webkit-text-stroke: 1px var(--text-color);
+}
+
+.content-section > .heading > span {
+  -webkit-text-stroke: 1px var(--main-color);
+}
+
+.content-section > .find {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--main-color);
+}
+
+.content-section > .box {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 292px 292px 292px;
+  grid-template-rows: 90px 90px 90px;
+  gap: 2rem;
+}
+
+.content-section > .box > .mini-box {
+  background-color: var(--secund-bg-color);
+  border-radius: 5px;
+  border-right: 2px solid var(--main-color);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.content-section > .box > .mini-box:hover {
+  transform: scale(1.06);
+  z-index: 1;
+  transition: 0.3s;
+}
+.content-section > .box > .mini-box > .icon {
+  font-size: 50px;
+  margin-left: 20px;
+}
+
+.content-section > .box > .mini-box > .content {
+  margin-left: 15px;
+}
+.content-section > .box > .mini-box > .content > a {
+  text-decoration: none;
+  color: #fff;
+}
+.content-section > .box > .mini-box > .content > a > h2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.content-section > .box > .mini-box > .content > p {
+  font-size: 12px;
+  font-weight: 300;
 }
