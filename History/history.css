@@ -105,7 +105,6 @@
   height: 100vh;
   position: absolute;
   border-top-left-radius: 125px;
-
 }
 
 .logo-name-footer {
@@ -171,8 +170,6 @@ form input {
   outline: 0;
 }
 
-
-
 .footer-bottom {
   text-align: center;
   justify-content: center;
@@ -186,6 +183,64 @@ form input {
 }
 .footer-bottom > p > a:hover {
   color: var(--text-color);
+}
 
+.social-links {
+  position: absolute;
+  right: 0;
+  margin-right: 230px;
+  bottom: 40rem;
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-links > a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  border: 2px solid var(--main-color);
+  background-color: transparent;
+  border-radius: 50%;
+  color: var(--secund-bg-color);
+  background-color: var(--main-color);
+  font-size: 2rem;
+  font-weight: 500;
+  overflow: hidden;
+  z-index: 1;
+  transition: 0.5s;
+}
 
+.social-links a::before {
+  content: "";
+  width: 0;
+  height: 100%;
+  background-color: var(--secund-bg-color);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.social-links a:hover::before {
+  width: 100%;
+  color: var(--secund-bg-color);
+}
+.social-links a:hover {
+  color: var(--main-color);
+}
+.social-links a::before {
+  content: "";
+  width: 0;
+  height: 100%;
+  background-color: var(--secund-bg-color);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.5s;
 }
