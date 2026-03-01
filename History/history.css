@@ -245,3 +245,52 @@ form input {
   z-index: -1;
   transition: 0.5s;
 }
+
+
+.btn-box-footer {
+  margin-top: 6.5rem;
+  margin-right: 3.5rem;
+  width: 12.5rem;
+  height: 3.5rem;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.btn-box-footer a {
+  color: var(--text-color);
+}
+.btn-box-footer .btn {
+  width: 11.5rem;
+  height: 100%;
+  background-color: var(--main-color);
+  border: 2px solid var(--main-color);
+  border-radius: 1rem;
+  color: var(--bg-color);
+  font-size: 1.5rem;
+  font-weight: 600;
+
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  overflow: hidden;
+}
+.btn-box-footer .btn::before {
+  content: "";
+  width: 0;
+  height: 100%;
+  background-color: var(--secund-bg-color);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+.btn-box-footer .btn:hover:before {
+  width: 100%;
+  color: var(--main-color);
+}
+.btn-box-footer .btn:hover {
+  color: var(--main-color);
+}
