@@ -94,7 +94,6 @@
   color: var(--main-color);
   font-weight: 600;
 }
-/* style="color: yellowgreen; font-weight: 600;" Hilight-text */
 
 /* <!-- -- -------------------------------------
               FOOTER SECTION DESIGN
@@ -102,8 +101,8 @@
 .footer {
   background-color: var(--secund-bg-color);
   width: 100%;
-  height: auto !important;
-  min-height: unset !important;
+  height: auto;
+  min-height: unset;
   position: absolute;
   border-top-left-radius: 125px;
   margin-bottom: 0;
@@ -246,7 +245,7 @@ form input {
   transition: 0.5s;
 }
 
-
+/* {Footer Button Design}  */
 .btn-box-footer {
   margin-top: 6.5rem;
   margin-right: 3.5rem;
