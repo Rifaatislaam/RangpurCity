@@ -42,8 +42,6 @@ section {
   padding: 10rem 9% 2rem;
 }
 
-
-
 /* <!-- -- -------------------------------------
               {FOOTER SECTION DESIGN}
    -- ------------------------------------- --> */
@@ -67,6 +65,17 @@ section {
 .logo-name-footer:hover {
   color: var(--main-color);
 }
+
+/* .col > a > img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-top: -5px;
+  border: 1px solid var(--main-color);
+  object-fit: cover;
+} */
+
+
 .row {
   width: 85%;
   margin: auto;
@@ -243,12 +252,6 @@ form input {
   color: var(--main-color);
 }
 
-
-
-
-
-
-
 /*----------------------------
 {NAVIGATION SECTION DESIGN}
 ----------------------------/ */
@@ -322,9 +325,9 @@ form input {
   display: none;
 }
 
-/*++++++++++++++++++++++++++++
-HOME IMAGE SECTION DESIGN
-++++++++++++++++++++++++++++*/
+/* /---------------------------------
+   {HOME IMAGE SECTION DESIGN}
+--------------------------------- */
 .home-image {
   position: relative;
   right: 0;

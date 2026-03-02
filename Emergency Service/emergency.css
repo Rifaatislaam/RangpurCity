@@ -329,6 +329,7 @@ form input {
   box-shadow: 0 0 20px var(--secund-bg-color);
 
   transition: 0.5s ease-in-out;
+  margin-bottom: 3rem;
 }
 
 .search-bar input {
@@ -347,5 +348,65 @@ form input {
   cursor: pointer;
 }
 .search-bar:hover {
-  width: 100%;
+  width: 80%;
+}
+
+.search-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -30px;
+}
+
+.img > a > img {
+  height: 100px;
+  width: 100px;
+  margin-right: 10px;
+}
+
+/* <!-- -- -------------------------------------
+              {CONTENT SECTION DESIGN}
+   -- ------------------------------------- --> */
+
+.content-1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  gap: 2rem;
+}
+
+.mini-box {
+  background-color: var(--secund-bg-color);
+  border-radius: 5px;
+  border-right: 2px solid var(--main-color);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.mini-box:hover {
+  transform: scale(1.06);
+  z-index: 1;
+  transition: 0.3s;
+}
+.icon {
+  font-size: 50px;
+  margin-left: 20px;
+}
+
+.content {
+  margin-left: 15px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+h2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+p {
+  font-size: 12px;
+  font-weight: 300;
 }
