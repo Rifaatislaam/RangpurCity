@@ -376,7 +376,7 @@ form input {
 }
 
 .mini-box {
-  height: 70px;
+  height: 90px;
   background-color: var(--secund-bg-color);
   border-radius: 5px;
   border-right: 2px solid var(--main-color);
@@ -391,50 +391,53 @@ form input {
   z-index: 1;
   transition: 0.3s;
 }
+
+
+
 .logo > img {
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   margin-left: 20px;
+  object-fit: contain;
 }
 
-.sub-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 
-.sub-content-1 > h2{
-  font-weight: 400;
-  font-size: 20px;
-  margin-left: 1.5rem;
-  margin-top: 1.5rem;
-}
-
-.sub-content-1 > p {
-  
-}
-
-.sub-content-2 {
-  margin-left: 32.5rem;
-  margin-top: 2rem;
-  font-size: 18px;
-}
-
-.sub-content-2 > a:hover {
-  cursor: pointer;
-  color: var(--main-color);
-}
 
 
 a {
   text-decoration: none;
   color: #fff;
 }
-h2 {
-  font-size: 18px;
+h2, a{
+  font-size: 20px;
   font-weight: 400;
+  color: var(--main-color);
+  font-weight: 600;
 }
 p {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 300;
+  color: var(--text-color);
+}
+
+
+.Heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Head{
+  margin-left: 20px;
+  width: 70%;
+}
+
+.PhoneIcon {
+  margin-right: 25px;
+}
+
+.Highlight {
+  font-size: 13.5px;
+  font-weight: 400;
+  color: var(--main-color);
 }
