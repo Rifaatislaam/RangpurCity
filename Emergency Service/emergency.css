@@ -323,7 +323,7 @@ form input {
   justify-content: center;
   height: 40px;
   width: 400px;
-  background-color: var(--main-color);
+  background-color: var(--text-color);
   padding: 10px 20px;
   border-radius: 50px;
   box-shadow: 0 0 20px var(--secund-bg-color);
@@ -368,10 +368,23 @@ form input {
               {CONTENT SECTION DESIGN}
    -- ------------------------------------- --> */
 
+.HeadLine {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem 0 3rem 0; /* Top Right Bottom left */
+  border-bottom: 1px solid var(--text-color);
+
+  font-size: 3.2rem;
+  color: transparent;
+  font-weight: 700;
+  -webkit-text-stroke: 0.5px var(--text-color);
+}
+
+
 .content-1 {
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
 }
 
@@ -392,8 +405,6 @@ form input {
   transition: 0.3s;
 }
 
-
-
 .logo > img {
   width: 70px;
   height: 70px;
@@ -401,14 +412,12 @@ form input {
   object-fit: contain;
 }
 
-
-
-
 a {
   text-decoration: none;
   color: #fff;
 }
-h2, a{
+h2,
+a {
   font-size: 20px;
   font-weight: 400;
   color: var(--main-color);
@@ -420,14 +429,13 @@ p {
   color: var(--text-color);
 }
 
-
 .Heading {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.Head{
+.Head {
   margin-left: 20px;
   width: 70%;
 }
