@@ -168,6 +168,7 @@ ul li a {
   text-decoration: none;
   color: var(--text-color);
   font-size: 13px;
+  font-weight: 400;
 }
 ul li a:hover {
   color: var(--main-color);
@@ -314,6 +315,15 @@ form input {
   color: var(--main-color);
 }
 
+
+.footer-para {
+  font-size: 10px;
+}
+.developer-name {
+  font-size: 12.5px;
+}
+
+
 /* <!-- -- -------------------------------------
               {SEARCH-Bar SECTION DESIGN}
    -- ------------------------------------- --> */
@@ -363,6 +373,9 @@ form input {
   width: 100px;
   margin-right: 10px;
 }
+
+
+
 
 /* <!-- -- -------------------------------------
               {CONTENT SECTION DESIGN}
