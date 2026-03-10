@@ -75,7 +75,6 @@ section {
   object-fit: cover;
 } */
 
-
 .row {
   width: 85%;
   margin: auto;
@@ -252,8 +251,6 @@ form input {
   color: var(--main-color);
 }
 
-
-
 /*----------------------------
 {NAVIGATION SECTION DESIGN}
 ----------------------------/ */
@@ -325,4 +322,212 @@ form input {
   font-size: 3.6rem;
   cursor: pointer;
   display: none;
+}
+
+/* -----------------------
+{Container Section Design}
+-------------------------*/
+
+.Background1 {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  bottom: 0;
+  left: 0;
+}
+
+.Background2 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  bottom: 0;
+  right: 0;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-side {
+  width: 25%;
+  height: 100%;
+}
+
+.details {
+  margin-left: 14px;
+  text-align: center;
+}
+.details > a > i {
+  color: var(--text-color);
+  font-size: 18px;
+}
+
+.developerImage > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid var(--main-color);
+  position: relative;
+}
+.developerImage > .text-one {
+  font-size: 18px;
+  color: var(--main-color);
+}
+.developerImage > .text-two {
+  margin-top: -5px;
+  font-size: 14px;
+}
+
+.github a > img {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 2px solid var(--main-color);
+  border-radius: 50%;
+  margin-top: -50px;
+  margin-left: 40px;
+}
+
+.rangpurLogo {
+  margin-top: 20px;
+}
+.rangpurLogo > .RangpurCityLogo > a {
+  color: var(--text-color);
+  font-size: 22px;
+  font-weight: 600;
+  padding: 5px 5px;
+}
+.rangpurLogo > .RangpurCityLogo > a:hover {
+  color: var(--main-color);
+  transition: 0.3s;
+  font-weight: 800;
+}
+
+.rangpurLogo > .text-two {
+  font-size: 11px;
+  text-align: center;
+  color: #008cff;
+}
+
+.contactUsIcon {
+  margin-top: 20px;
+  gap: 10px;
+}
+.contactUsIcon > a {
+  margin-left: 10px;
+}
+.contactUsIcon > a > i {
+  padding: 8px 8px;
+}
+
+/* {Contact Us Icon Design}  */
+.contactUsIcon {
+  width: 80%;
+  height: 80%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.contactUsIcon a i {
+  color: var(--text-color);
+}
+.contactUsIcon a i:hover {
+  color: var(--text-color);
+}
+
+.contactUsIcon .btn {
+  width: 5rem;
+  height: 100%;
+  background-color: var(--secund-bg-color);
+  border: 2px solid #008cff;
+  border-radius: 1rem;
+  color: var(--text-color);
+  font-size: 1rem;
+  font-weight: 600;
+
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  overflow: hidden;
+}
+.contactUsIcon .btn::before {
+  content: "";
+  width: 0;
+  height: 100%;
+  background-image: linear-gradient(to bottom right, #008cff, #e100ff);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+.contactUsIcon .btn:hover:before {
+  width: 100%;
+  color: var(--main-color);
+}
+
+.right-side {
+  width: 75%;
+  height: 100%;
+  margin-left: 100px;
+}
+
+.right-side > .topic-text {
+  color: var(--main-color);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.right-side > p {
+  font-size: 14px;
+}
+
+.input-box {
+  padding: 10px 10px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  background-color: var(--secund-bg-color);
+  margin-top: 10px;
+}
+
+.input-box textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.btn > button {
+  padding: 1rem 2rem;
+  background-color: var(--secund-bg-color);
+  border: none;
+  color: var(--text-color);
+  border-radius: 1000px;
+  margin-top: 20px;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn button::after {
+  content: "";
+  position: absolute;
+  width: 107%;
+  height: 107%;
+  border-radius: 1000px;
+  background-image: linear-gradient(to bottom right, #008cff, #e100ff);
+  z-index: -1;
+}
+
+.btn > button:hover {
+  z-index: 0;
+  box-shadow: 40px 0 100px #008cff;
+}
+
+.btn > button > i {
+  margin-left: 5px;
 }
