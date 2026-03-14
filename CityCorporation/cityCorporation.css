@@ -314,3 +314,22 @@ form input {
   cursor: pointer;
   display: none;
 }
+
+
+/* <!-- -- -------------------------------------
+              {Home SECTION DESIGN}
+   -- ------------------------------------- --> */
+
+.bulbasaur::after {
+  content: 'Bulbasaur';
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 30px;
+}
+.bulbasaur {
+  background: url(/Photo/Bank_er_more.jpg);
+  background-size: cover;
+}
