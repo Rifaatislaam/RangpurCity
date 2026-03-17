@@ -320,6 +320,19 @@ form input {
               {Home SECTION DESIGN}
    -- ------------------------------------- --> */
 
+
+.mayor-section {
+  width: 250px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.mayor-section > .mayor-img > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+}
+
 .card-list > .card-item {
   width: 250px;
   padding: 10px;
