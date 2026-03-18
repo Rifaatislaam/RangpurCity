@@ -323,40 +323,51 @@ form input {
   -webkit-text-stroke: 0.5px var(--main-color);
   border-bottom: 1px dashed var(--main-color);
   margin-bottom: 2rem;
+  margin-top: -30px;
 }
 
 /* .mayor-section >  */
 
-.mayor-section {
-  width: 200px;
+.mayor-panel {
+  display: flex;
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: 70px;
 }
 
-.mayor-section > .mayor-img > img {
-  width: 200px;
-  height: 200px;
-  border-radius: 8px;
+.mayor-panel > .mayor-info {
+  width: 25%;
+  align-items: center;
+  justify-content: center;
 }
 
-.mayor-section > .mayor-name {
-  text-align: center;
+.mayor-panel > .mayor-info > .mayor-image > img {
+  width: 180px;
+  height: 180px;
+  border-radius: 5px;
+}
+
+.mayor-panel > .mayor-info  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
   color: var(--main-color);
 }
 
-.mayor-section > p {
-  text-align: center;
-  font-size: 14px;
+.mayor-panel > .mayor-info > .mayor-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-
-
-.mayor-section >  .mayor-Info {
+.mayor-panel > .mayor-info > .mayor-contact > .call-mayor {
   padding: 1rem 1.5rem;
   border: none;
   border-radius: 1000px;
   margin-top: 10px;
-  font-size: 10px;
+  font-size: 12px;
   position: relative;
   color: var(--text-color);
   background-color: var(--secund-bg-color);
@@ -366,29 +377,28 @@ form input {
   justify-content: center;
 }
 
-.mayor-section > a::after {
-  content: "";
+.mayor-panel > .mayor-info > .mayor-contact > a::after {
+    content: "";
   position: absolute;
   width: 107%;
   height: 107%;
   border-radius: 1000px;
-  background-image: linear-gradient(
-    to bottom right,
-    var(--main-color),
-    #1bb267
-  );
+  background-image: linear-gradient(to bottom right, #008cff, #e100ff);
   z-index: -1;
 }
 
-.mayor-section > a:hover {
+.mayor-panel > .mayor-info > .mayor-contact > a:hover {
   z-index: 0;
-  color: var(--secund-bg-color);
-  box-shadow: 40px 0 100px var(--main-color);
+  color: var(--text-color);
+  box-shadow: 40px 0 100px #008cff;
 }
 
-.mayor-section > a > i {
+.mayor-panel > .mayor-info > .mayor-contact > a > i {
   margin-right: 7px;
 }
+
+
+
 
 /* Councilor -SECTION >  */
 
