@@ -315,14 +315,20 @@ form input {
   display: none;
 }
 
+/* {----------------Home SECTION DESIGN----------------}*/
+.heading-title {
+  font-size: 3rem;
+  color: transparent;
+  font-weight: 700;
+  -webkit-text-stroke: 0.5px var(--main-color);
+  border-bottom: 1px dashed var(--main-color);
+  margin-bottom: 2rem;
+}
 
-/* <!-- -- -------------------------------------
-              {Home SECTION DESIGN}
-   -- ------------------------------------- --> */
-
+/* .mayor-section >  */
 
 .mayor-section {
-  width: 250px;
+  width: 200px;
   height: auto;
   margin-bottom: 20px;
 }
@@ -332,6 +338,59 @@ form input {
   height: 200px;
   border-radius: 8px;
 }
+
+.mayor-section > .mayor-name {
+  text-align: center;
+  color: var(--main-color);
+}
+
+.mayor-section > p {
+  text-align: center;
+  font-size: 14px;
+}
+
+
+
+.mayor-section >  .mayor-Info {
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 1000px;
+  margin-top: 10px;
+  font-size: 10px;
+  position: relative;
+  color: var(--text-color);
+  background-color: var(--secund-bg-color);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mayor-section > a::after {
+  content: "";
+  position: absolute;
+  width: 107%;
+  height: 107%;
+  border-radius: 1000px;
+  background-image: linear-gradient(
+    to bottom right,
+    var(--main-color),
+    #1bb267
+  );
+  z-index: -1;
+}
+
+.mayor-section > a:hover {
+  z-index: 0;
+  color: var(--secund-bg-color);
+  box-shadow: 40px 0 100px var(--main-color);
+}
+
+.mayor-section > a > i {
+  margin-right: 7px;
+}
+
+/* Councilor -SECTION >  */
 
 .card-list > .card-item {
   width: 250px;
@@ -346,8 +405,6 @@ form input {
   justify-content: center;
   backdrop-filter: blur(30px);
 }
-
-
 
 .card-list > .card-item > .Councilor-img {
   width: 120px;
@@ -373,7 +430,7 @@ form input {
 
 /* :{Here is CALL BUTTON design } */
 
-.card-list > .card-item > .Councilor-Info {
+.Councilor-Info {
   padding: 1rem 1.5rem;
   border: none;
   border-radius: 1000px;
@@ -388,14 +445,17 @@ form input {
   justify-content: center;
 }
 
-
 .card-list > .card-item > a::after {
   content: "";
   position: absolute;
   width: 107%;
   height: 107%;
   border-radius: 1000px;
-  background-image: linear-gradient(to bottom right, var(--main-color), #1bb267);
+  background-image: linear-gradient(
+    to bottom right,
+    var(--main-color),
+    #1bb267
+  );
   z-index: -1;
 }
 
