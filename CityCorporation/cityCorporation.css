@@ -478,3 +478,71 @@ form input {
 .card-list > .card-item > a > i {
   margin-right: 7px;
 }
+
+
+
+
+.swiper-slide > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.second-swiper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.description {
+  line-height: 1.3;
+  padding: 30px 3%;
+  user-select: none;
+}
+
+.description h1 {
+  font-size: clamp (1.5rem, 3vw, 2.5rem);
+  margin-bottom: 26px;
+}
+
+.description p {
+  font-size: clamp (0.9rem, 3.5vw, 1.3rem);
+  margin-bottom: 26px;
+}
+
+.slider-container {
+  position: relative;
+  width: 70%;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  padding: 60px 10px;
+}
+
+.swiper-slide {
+  position: relative;
+  width: 600px;
+  aspect-ratio: 3/4;
+  border-radius: 12px;
+  background-color: var(--secund-bg-color);
+  box-shadow: 0 4px 12px rgba(244, 212, 212, 0.3);
+  user-select: none;
+}
+
+.swiper-slide > img {
+  position: absolute;
+  inset: 0;
+  border: 0;
+  border-radius: inherit;
+  transform-origin: 50% 75%;
+  background-color: var(--bg-color);
+  transition: all 0.8s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  box-shadow: inherit;
+  z-index: 1;
+}
