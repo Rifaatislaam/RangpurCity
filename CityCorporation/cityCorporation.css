@@ -470,6 +470,13 @@ form input {
   justify-content: center;
 }
 
+/* Reserved seat for women section design */
+
+#card-item {
+  background: rgba(150, 150, 150, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 .card-list > .card-item > a::after {
   content: "";
   position: absolute;
@@ -484,10 +491,11 @@ form input {
   z-index: -1;
 }
 
-.card-list > .card-item > #call-councilor {
+/* Reserved seat for women section design */
+
+.card-list > #card-item > #call-councilor::after {
   background-image: linear-gradient(to bottom right, rgb(23, 23, 189), #1f42dc);
 }
-
 
 .card-list > .card-item > a:hover {
   z-index: 0;
@@ -497,9 +505,4 @@ form input {
 
 .card-list > .card-item > a > i {
   margin-right: 7px;
-}
-
-#card-item {
-  background: rgba(150, 150, 150, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.1);
 }
