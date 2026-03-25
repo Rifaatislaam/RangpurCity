@@ -331,7 +331,6 @@ form input {
   color: transparent;
   margin-bottom: 2.5rem;
   -webkit-text-stroke: 0.7px var(--text-color);
-
 }
 
 /* .mayor-section >  */
@@ -354,7 +353,7 @@ form input {
   border-radius: 5px;
 }
 
-.mayor-panel > .mayor-info  {
+.mayor-panel > .mayor-info {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -378,8 +377,7 @@ form input {
 .mayor-panel > .mayor-info > .mayor-contact > p {
   font-size: 12px;
   color: var(--text-color);
-
-} 
+}
 
 .mayor-panel > .mayor-info > .mayor-contact > .call-mayor {
   padding: 1rem 1.5rem;
@@ -397,7 +395,7 @@ form input {
 }
 
 .mayor-panel > .mayor-info > .mayor-contact > a::after {
-    content: "";
+  content: "";
   position: absolute;
   width: 107%;
   height: 107%;
@@ -415,9 +413,6 @@ form input {
 .mayor-panel > .mayor-info > .mayor-contact > a > i {
   margin-right: 7px;
 }
-
-
-
 
 /* Councilor -SECTION >  */
 
@@ -459,7 +454,8 @@ form input {
 
 /* :{Here is CALL BUTTON design } */
 
-.call-councilor {
+.call-councilor,
+#call-councilor {
   padding: 1rem 1.5rem;
   border: none;
   border-radius: 1000px;
@@ -488,6 +484,11 @@ form input {
   z-index: -1;
 }
 
+.card-list > .card-item > #call-councilor {
+  background-image: linear-gradient(to bottom right, rgb(23, 23, 189), #1f42dc);
+}
+
+
 .card-list > .card-item > a:hover {
   z-index: 0;
   color: var(--secund-bg-color);
@@ -498,7 +499,7 @@ form input {
   margin-right: 7px;
 }
 
-
-
-
-
+#card-item {
+  background: rgba(150, 150, 150, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
