@@ -324,6 +324,24 @@ form input {
   gap: 20px;
 }
 
+.head {
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.head > img{
+  width: 40px;
+}
+
+.head > h3 {
+  font-size: 20px;
+  color: var(--main-color);
+}
+
+
+
 .first-section > .box {
   background-color: var(--secund-bg-color);
   border-radius: 5px;
@@ -333,7 +351,8 @@ form input {
 }
 
 .head-info {
-  padding: 20px 20px;
+  margin-left: 20px;
+  padding-bottom: 20px;
 }
 
 .head-info > .sub-info {
