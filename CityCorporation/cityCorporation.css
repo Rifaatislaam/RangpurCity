@@ -318,10 +318,17 @@ form input {
 /* --------------------------------------
           HOME SECTION DESIGN
 -------------------------------------- */
+.city-corporation {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
 .first-section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
+  width: 70%;
 }
 
 .head {
@@ -331,7 +338,7 @@ form input {
   gap: 10px;
 }
 
-.head > img{
+.head > img {
   width: 40px;
 }
 
@@ -339,8 +346,6 @@ form input {
   font-size: 20px;
   color: var(--main-color);
 }
-
-
 
 .first-section > .box {
   background-color: var(--secund-bg-color);
@@ -376,9 +381,75 @@ form input {
   transition: 0.2s ease-in-out;
 }
 
-.head-info > .sub-info > a:hover{
+.head-info > .sub-info > a:hover {
   color: var(--main-color);
   text-decoration: underline;
   transform: scale(1.05);
 }
 
+/* Second Section design is here */
+.second-section {
+  width: 30%;
+}
+
+.second-section > .people {
+  background-color: var(--secund-bg-color);
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid var(--text-color);
+}
+
+.second-section > .people > .head-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 5px;
+}
+
+.second-section > .people > .head-text h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.second-section > .people > .people-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.second-section > .people > .people-img > img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.second-section > .people > .footer-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 5px;
+}
+
+.second-section > .people > .footer-text h2 {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--main-color);
+}
+
+.second-section > .people > .footer-text p {
+  font-size: 12px;
+}
+
+.second-section > .people > .social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.second-section > .people > .social-link a {
+  color: var(--text-color);
+  font-size: 20px;
+}
