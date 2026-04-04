@@ -376,10 +376,17 @@ form input {
   color: var(--text-color);
   text-decoration: none;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   font-size: 14px;
   transition: 0.2s ease-in-out;
 }
+.head-info > .sub-info > a i {
+  color: var(--main-color);
+  align-items: center;
+  margin-left: 5px;
+  margin-top: 4px;
+}
+
 
 .head-info > .sub-info > a:hover {
   color: var(--main-color);
