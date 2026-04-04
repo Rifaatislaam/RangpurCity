@@ -526,6 +526,7 @@ form input {
 .btn > button:hover {
   z-index: 0;
   box-shadow: 40px 0 100px #008cff;
+  cursor: pointer;
 }
 
 .btn > button > i {
