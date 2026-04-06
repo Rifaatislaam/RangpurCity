@@ -387,7 +387,6 @@ form input {
   margin-top: 4px;
 }
 
-
 .head-info > .sub-info > a:hover {
   color: var(--main-color);
   text-decoration: underline;
@@ -404,7 +403,6 @@ form input {
   align-items: center;
   justify-content: center;
   border-top: 1px solid green;
-
 
   margin-bottom: 30px;
 }
@@ -527,8 +525,32 @@ city-corporation-map design
   -webkit-text-stroke: 1px var(--text-color);
 }
 
-.city-corporation-map  {
+.city-corporation-map {
   border: 2px dashed var(--main-color);
   border-radius: 5px;
-  padding: 10px 10px;
+  padding: 10px 10px 5px 10px;
+}
+
+/* --------------------
+Gallery section is here
+ --------------------*/
+
+.gallery-section {
+  width: 60%;
+  height: 500px;
+  margin: auto;
+  box-shadow: 0px 0px 3px gray;
+  position: relative;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+  position: absolute;
+}
+
+.nav {
+  text-align: center;
+  margin-top: 15px;
 }
