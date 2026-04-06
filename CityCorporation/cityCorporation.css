@@ -505,3 +505,30 @@ form input {
 .second-section > .people > .social-link a:hover {
   color: var(--main-color);
 }
+
+/* -------------------------
+city-corporation-map design 
+---------------------------*/
+
+.header-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  margin-bottom: 15px;
+}
+
+.header-line h3 {
+  -webkit-text-stroke: 0.5px var(--main-color);
+  color: transparent;
+}
+
+.header-line > h3 .half-text {
+  -webkit-text-stroke: 1px var(--text-color);
+}
+
+.city-corporation-map  {
+  border: 2px dashed var(--main-color);
+  border-radius: 5px;
+  padding: 10px 10px;
+}
