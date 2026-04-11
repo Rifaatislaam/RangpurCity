@@ -13,6 +13,7 @@ const nextSlide = () => {
   slideNumber++;
 };
 
+
 const prevSlide = () => {
   slider.style.transform = `translateX(-${(slideNumber - 2) * 800}px)`;
   slideNumber--;
