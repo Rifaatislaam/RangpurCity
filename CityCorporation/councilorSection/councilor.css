@@ -629,10 +629,13 @@ HOME SECTION DESIGN
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.5s;
+  background-image: linear-gradient(to bottom right, rgb(23, 23, 189), #1f42dc);
 }
 
 .councilor-social-section a:hover {
   cursor: pointer;
+  background: transparent;
 }
 
 .councilor-social-section a i {
