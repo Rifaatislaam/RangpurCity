@@ -1,0 +1,198 @@
+---------------------------------------------------------------------
+                            BASIC CSS FORMAT
+---------------------------------------------------------------------
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rangpur City</title>
+
+  <!-- HERE IS THE google font LINK -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- HERE is the Bangla font link -->
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- HERE IS THE box-icon CDN LINK  -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- HERE IS THE box-icon CDN LINK  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- {Favicon logo is here} -->
+  <link rel="icon" type="image/png" href="/Photo/RangpurCity-logo.png">
+
+  <!-- HERE IS THE CUSTOM css LINK -->
+  <link rel="stylesheet" href="doctor.css">
+</head>
+
+<body>
+
+  <!-- -------------------------------------
+       NAVIGATION SECTION DESIGN
+ ------------------------------------- -->
+  <div class="header">
+    <a href="/index1.html">
+      <div class="logo">
+        <div class="logo-name">রংপুর সিটি</div>
+      </div>
+    </a>
+
+    <div class="bx bx-menu" id="icon-menu"></div>
+
+    <nav class="navigation">
+      <a href="/index.html" class="active">হোম</a>
+      <a href="/CityCorporation/cityCorporation.html">সিটি কর্পোরেশন</a>
+      <a href="/Emergency Service/emergency.html">জরুরি সেবা</a>
+      <a href="./History/history.html">ইতিহাস</a>
+      <a href="/ContactUs/contact.html">যোগাযোগ</a>
+
+      <span class="active-nav"></span>
+
+    </nav>
+  </div>
+
+
+</body>
+
+</html>
+
+
+
+
+
+---------------------------------------------------------------------
+                            BASIC CSS FORMAT
+---------------------------------------------------------------------
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500&display=swap");
+/*+++++++++++++++++++++++++++
+ UNIVERSAL DESIGN 
+ ++++++++++++++++++++++++++++*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+*::selection {
+  color: #000;
+  background-color: #fff;
+}
+
+:root {
+  --bg-color: #081b29;
+  --main-color: #48e655;
+  --text-color: #ededed;
+  --secund-bg-color: #112e42;
+}
+
+html {
+  font-size: 64.5%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+section {
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
+}
+
+/*----------------------------
+{NAVIGATION SECTION DESIGN}
+----------------------------/ */
+
+.header {
+  width: 100%;
+  padding: 1rem 9%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 90;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(50px);
+}
+.header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  transition: 0.5s;
+}
+.header:hover:after {
+  left: 100%;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.logo-image > img {
+  width: 3.8rem;
+  height: 3.8rem;
+  border: 1px solid var(--main-color);
+  border-radius: 50%;
+}
+.logo-name {
+  font-size: 2.5rem;
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+.navigation a {
+  color: var(--text-color);
+  font-size: 1.6rem;
+  margin-left: 3.5rem;
+  font-weight: 500;
+}
+
+.navigation a:hover,
+.navigation a.active {
+  color: var(--main-color);
+}
+
+#icon-menu {
+  color: var(--text-color);
+  font-size: 3.6rem;
+  cursor: pointer;
+  display: none;
+}
