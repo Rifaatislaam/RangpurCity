@@ -135,13 +135,13 @@ section {
 
 .content-1 {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
 
 .mini-box {
   height: 90px;
-  background-color: var(--secund-bg-color);
+  background-color: #fadffa;
   border-radius: 5px;
   border-right: 2px solid var(--main-color);
   display: flex;
