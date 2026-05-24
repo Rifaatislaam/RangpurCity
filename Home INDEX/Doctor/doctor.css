@@ -220,6 +220,7 @@ p {
   margin-bottom: 10px;
   color: var(--text-color);
 }
+
 .logo-name-footer:hover {
   color: var(--main-color);
 }
@@ -232,33 +233,40 @@ p {
   align-items: flex-start;
   justify-content: space-between;
 }
+
 .row > .col {
   flex-basis: 25%;
   padding: 10px;
 }
+
 .col h3 {
   width: fit-content;
   margin-bottom: 20px;
   position: relative;
 }
+
 .footer-head {
   font-weight: 800;
   color: var(--main-color);
   text-decoration: overline;
 }
+
 ul li {
   list-style: none;
   padding: 2px;
 }
+
 ul li a {
   text-decoration: none;
   color: var(--text-color);
   font-size: 13px;
 }
+
 ul li a:hover {
   color: var(--main-color);
   font-weight: 800;
 }
+
 form {
   padding-bottom: 15px;
   align-items: center;
@@ -266,10 +274,12 @@ form {
   border-bottom: 1px solid var(--main-color);
   margin-bottom: 50px;
 }
+
 form .fa-regular {
   font-size: 18px;
   margin-right: 10px;
 }
+
 form input {
   width: 100%;
   background: transparent;
@@ -285,10 +295,12 @@ form input {
   border-top: 1px solid var(--main-color);
   padding-top: 15px;
 }
+
 .footer-bottom > p > a {
   color: var(--main-color);
   font-weight: 400;
 }
+
 .footer-bottom > p > a:hover {
   color: var(--text-color);
 }
@@ -301,6 +313,7 @@ form input {
   justify-content: space-between;
   align-items: center;
 }
+
 .social-links > a {
   position: relative;
   display: inline-flex;
@@ -336,9 +349,11 @@ form input {
   width: 100%;
   color: var(--secund-bg-color);
 }
+
 .social-links a:hover {
   color: var(--main-color);
 }
+
 .social-links a::before {
   content: "";
   width: 0;
@@ -361,9 +376,11 @@ form input {
   display: flex;
   justify-content: space-between;
 }
+
 .btn-box-footer a {
   color: var(--text-color);
 }
+
 .btn-box-footer .btn {
   width: 11.5rem;
   height: 100%;
@@ -381,6 +398,7 @@ form input {
   z-index: 1;
   overflow: hidden;
 }
+
 .btn-box-footer .btn::before {
   content: "";
   width: 0;
@@ -392,10 +410,12 @@ form input {
   z-index: -1;
   transition: 0.5s;
 }
+
 .btn-box-footer .btn:hover:before {
   width: 100%;
   color: var(--main-color);
 }
+
 .btn-box-footer .btn:hover {
   color: var(--main-color);
 }
