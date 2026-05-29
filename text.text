@@ -452,3 +452,16 @@ form input {
 .btn-box-footer .btn:hover {
   color: var(--main-color);
 }
+
+
+
+
+
+
+
+
+
+
+
+For hospital list link
+https://hrm.dghs.gov.bd/public/facility-registry/reports/organization-list?submit=Run&division_id%5B0%5D=4&district_id%5B0%5D=42&city_corporation_id%5B0%5D=46&is_active=1&columns_csv=id%2Cname%2Cname_bn%2Ccode%2Cemail_1%2Cfacility_agency_name%2Cfacility_type_name%2Cdivision_name%2Cdistrict_name%2Ccity_corporation_name%2Cupazila_name%2Cpaurasava_name%2Cunion_name%2Cis_private&alias_columns_csv=Id%2CName%2CName%20%28Bangla%29%2CCode%2CEmail%2CAgency%2CType%2CDivision%2CDistrict%2CCity%20Corporation%2CUpazila%2CPaurasava%2CUnion%2CPrivate&page=1

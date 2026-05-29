@@ -114,3 +114,194 @@ section {
   cursor: pointer;
   display: none;
 }
+
+/* ----------------
+HOME SECTION DESIGN
+ ------------------*/
+
+.head-tag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.head-tag h1 {
+  font-size: 25px;
+  font-weight: normal;
+  -webkit-text-stroke: 0.5px var(--main-color);
+  color: transparent;
+}
+.head-tag p {
+  font-size: 15px;
+}
+.councilor-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid var(--main-color);
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.serial-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  font-size: 20px;
+  padding-right: 10px;
+  border-right: 1px solid var(--main-color);
+  border-radius: 5px;
+  font-weight: normal;
+}
+
+.image-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-section img {
+  width: 220px;
+  height: 220px;
+  border-radius: 5px;
+}
+
+.councilor-info-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+
+.councilor-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-head {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-left: 15px;
+  border-radius: 5px;
+}
+
+.hospital-name h2 {
+  font-size: 20px;
+  font-weight: normal;
+  -webkit-text-stroke: 0.5px var(--main-color);
+  color: transparent;
+}
+.hospital-name p {
+  font-size: 17px;
+}
+
+.sub-head h2 {
+  width: 100%;
+  padding: 10px;
+  font-weight: normal;
+  border: 0.5px solid var(--main-color);
+  transition: 0.5s;
+}
+
+.sub-head h2:hover {
+  cursor: pointer;
+  background-color: var(--secund-bg-color);
+
+  transform: scale(1.02);
+}
+
+.sub-head-two h2:hover {
+  cursor: pointer;
+  background-color: var(--secund-bg-color);
+
+  transform: scale(1.02);
+}
+
+.sub-head-two {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-right: 15px;
+  border: 0.5px solid var(--main-color);
+  border-radius: 5px;
+}
+
+.sub-head-two h2 {
+  padding: 10px;
+  width: 100%;
+  font-weight: normal;
+  border-bottom: 0.5px solid var(--main-color);
+  transition: 0.5s;
+}
+
+.councilor-social-section {
+  border: none;
+  gap: 20px;
+  margin-right: 20px;
+  color: var(--text-color);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.councilor-social-section a {
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 1px solid var(--main-color);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  background-image: linear-gradient(to bottom right, rgb(23, 23, 189), #1f42dc);
+}
+
+.councilor-social-section a:hover {
+  cursor: pointer;
+  background: transparent;
+}
+
+.councilor-social-section a i {
+  font-size: 20px;
+}
+
+
+
+/* BUTTON DESIGN */
+
+.btn > button {
+  padding: 1rem 2rem;
+  background-color: var(--secund-bg-color);
+  border: none;
+  color: var(--text-color);
+  border-radius: 1000px;
+  margin-top: 20px;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn button::after {
+  content: "";
+  position: absolute;
+  width: 107%;
+  height: 107%;
+  border-radius: 1000px;
+  background-image: linear-gradient(to bottom right, #008cff, #e100ff);
+  z-index: -1;
+}
+
+.btn > button:hover {
+  z-index: 0;
+  box-shadow: 40px 0 100px #008cff;
+  cursor: pointer;
+}
