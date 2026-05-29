@@ -135,7 +135,7 @@ HOME SECTION DESIGN
 .head-tag p {
   font-size: 15px;
 }
-.councilor-section {
+.hospital-section {
   width: 100%;
   display: flex;
   align-items: center;
@@ -169,14 +169,14 @@ HOME SECTION DESIGN
   border-radius: 5px;
 }
 
-.councilor-info-section {
+.hospitalInfoSection {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 300px;
 }
 
-.councilor-info {
+.hospitalInfo {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -241,7 +241,7 @@ HOME SECTION DESIGN
   transition: 0.5s;
 }
 
-.councilor-social-section {
+.hospitalShortLink {
   border: none;
   gap: 20px;
   margin-right: 20px;
@@ -252,7 +252,7 @@ HOME SECTION DESIGN
   align-items: center;
 }
 
-.councilor-social-section a {
+.hospitalShortLink a {
   padding: 10px 10px;
   border-radius: 5px;
   border: 1px solid var(--main-color);
@@ -264,16 +264,14 @@ HOME SECTION DESIGN
   background-image: linear-gradient(to bottom right, rgb(23, 23, 189), #1f42dc);
 }
 
-.councilor-social-section a:hover {
+.hospitalShortLink a:hover {
   cursor: pointer;
   background: transparent;
 }
 
-.councilor-social-section a i {
+.hospitalShortLink a i {
   font-size: 20px;
 }
-
-
 
 /* BUTTON DESIGN */
 
