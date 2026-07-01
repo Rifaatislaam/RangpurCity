@@ -304,10 +304,8 @@ HOME SECTION DESIGN
   cursor: pointer;
 }
 
+/* Footer section design */
 
-/* <!-- -- -------------------------------------
-          FOOTER SECTION DESIGN for CSS
-   -- ------------------------------------- --> */
 .footer {
   background-color: var(--secund-bg-color);
   width: 100%;
