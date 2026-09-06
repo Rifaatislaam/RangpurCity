@@ -118,3 +118,13 @@ section {
 /*+++++++++++++++++++++++++++
  Home section 
  ++++++++++++++++++++++++++++*/
+.home-top {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+    url("./Back-BUS.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  padding: 25px;
+  border-radius: 15px;
+}
